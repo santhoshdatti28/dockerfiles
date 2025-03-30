@@ -5,7 +5,7 @@
 ARG version
 FROM almalinux:${version:-9}
 ARG user=santhosh
-RUn echo "hello ${user}" > hello.txt
+RUN echo "hello ${user}" > hello.txt
 
 
 
