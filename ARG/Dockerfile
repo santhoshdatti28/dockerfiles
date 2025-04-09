@@ -10,7 +10,7 @@
 
 FROM almalinux:9
 ARG USERNAME=santhosh
-ENV NAME=$USERNAME
+ENV NAME=$USERNAME 
 
 
 
